@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A5A6FFDE696298C5257407189C7FEB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB98C9BB1D60E50A1C10746251933262 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m */; };
+		46DD08FB7D6071E99E75ECDBA47E90C1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69DCD189DA3EE20E9F9E1DB89BAB7D61 /* Pods-DecadeOfMovies-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C20737BCFB475400D4F52C6EC11390 /* Pods-DecadeOfMovies-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */; };
+		95F69E9E9D84AF0C3A19687C21FAC91D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		988F4F0DE6EA7AEB0161D9BAF0CEBCC5 /* Pods-DecadeOfMovies-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB2ABCDE712C5A54246EC66143AA8D4 /* Pods-DecadeOfMovies-dummy.m */; };
+		A2ABF7BFD9B5231AF05F90DC2F420518 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */; };
+		C820D334F9EEE2EE9E38D8955BFED966 /* Pods-DecadeOfMoviesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04971C53C2975C75EC2AE1F8992203C2 /* Pods-DecadeOfMoviesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C87B441F1454B652561290F80B30A152 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF64450BF52F47BD48BF996488FCA965 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C3188208A3DB5F1D0D10308325ABEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		EEC2ADCDFE91DD217C3358EA7D5C5D73 /* Pods-DecadeOfMoviesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862B764278DA3C8414600DBD39DFB823 /* Pods-DecadeOfMoviesTests-dummy.m */; };
+		FB1A59DAD92E574036C966A2CD221FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		195B55C8B24DD88B0DD204222AA98898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		A6B4C029F050E7601960625F9EA82DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		CCB0AD73F25444B2B6C57DE9EFD160F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D37697326FB215A6E4AAC72838D5BE1F;
+			remoteInfo = "Pods-DecadeOfMovies";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00803B939D57EFC8FDE00A6C22420952 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04683809493E9A07895E840E2958EDA3 /* Pods-DecadeOfMoviesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMoviesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		04971C53C2975C75EC2AE1F8992203C2 /* Pods-DecadeOfMoviesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecadeOfMoviesTests-umbrella.h"; sourceTree = "<group>"; };
+		09EF7A7B12D082A2F71A2913FD4F364A /* Pods-DecadeOfMovies-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMovies-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A4EB0333820973B4B526B538B23B241 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-Info.plist"; sourceTree = "<group>"; };
+		1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		1A82AE9DC80237CF22B79CAAFD899D06 /* Pods_DecadeOfMoviesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecadeOfMoviesTests.framework; path = "Pods-DecadeOfMoviesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26C20737BCFB475400D4F52C6EC11390 /* Pods-DecadeOfMovies-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecadeOfMovies-umbrella.h"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44FDC1476BAD82700652CF7ED32D84B8 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		4AB4C09F436DB4E6946165BAE42CFF27 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		52AA1C5817B0443CD7F5CEDE141D3C94 /* Pods-DecadeOfMovies-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMovies-Info.plist"; sourceTree = "<group>"; };
+		562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		5FB2ABCDE712C5A54246EC66143AA8D4 /* Pods-DecadeOfMovies-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecadeOfMovies-dummy.m"; sourceTree = "<group>"; };
+		5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		7737BF3B6941D841329E07BD4E90DE71 /* Pods-DecadeOfMoviesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecadeOfMoviesTests.modulemap"; sourceTree = "<group>"; };
+		862B764278DA3C8414600DBD39DFB823 /* Pods-DecadeOfMoviesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecadeOfMoviesTests-dummy.m"; sourceTree = "<group>"; };
+		906F46F575AC0572E64BC8427A5209A2 /* Pods-DecadeOfMoviesTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMoviesTests-Info.plist"; sourceTree = "<group>"; };
+		93CE34130B35B04997426CDB699A5FDB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		956FA14E869C446564DBDBF5C7F2B38F /* Pods_DecadeOfMovies.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DecadeOfMovies.framework; path = "Pods-DecadeOfMovies.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ABA7A134ED7C97296342D6D2EAC99234 /* Pods-DecadeOfMovies.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecadeOfMovies.modulemap"; sourceTree = "<group>"; };
+		B1B8EEBFD540BCBAC901BED497A7F1A0 /* Pods-DecadeOfMovies-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DecadeOfMovies-frameworks.sh"; sourceTree = "<group>"; };
+		B7CA49011B130643A5FEB971F6CB5B0F /* Pods-DecadeOfMovies.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMovies.debug.xcconfig"; sourceTree = "<group>"; };
+		BC426ED2C38BB78624C3E589696626E1 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		C0F885B772CD010EBEB69F52BB91D08B /* Pods-DecadeOfMovies-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecadeOfMovies-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		D2F61909EA001C958133FCF3813F7C9B /* Pods-DecadeOfMoviesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DecadeOfMoviesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D854D11C419FA52F10EC30B610F72D5C /* Pods-DecadeOfMoviesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMoviesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD2CA462C5E2AA02241A0E9FF97803A0 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		E49EF817CEC5B7B8B81D8D733BC7F8EB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests.modulemap"; sourceTree = "<group>"; };
+		E6A2C8E0F36B4B02E1F14DDAA0ADF30D /* Pods-DecadeOfMovies.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMovies.release.xcconfig"; sourceTree = "<group>"; };
+		EB98C9BB1D60E50A1C10746251933262 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m"; sourceTree = "<group>"; };
+		F660D8B258B64A24B417845074DC6401 /* Pods-DecadeOfMoviesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DecadeOfMoviesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF64450BF52F47BD48BF996488FCA965 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DF5A9AC595EB65396B0F7FD3EC355F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1A59DAD92E574036C966A2CD221FAB /* Foundation.framework in Frameworks */,
+				46DD08FB7D6071E99E75ECDBA47E90C1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287CFCE08090F90E199F8D461FD7AF74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2ABF7BFD9B5231AF05F90DC2F420518 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B69AAAC6ED7A57955D6CCE95F34B477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F69E9E9D84AF0C3A19687C21FAC91D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0062D50A8EFE4D40BA649F7FA6BF8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C3188208A3DB5F1D0D10308325ABEA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10120768FDFD13382CD15F13A4347397 /* Pods-DecadeOfMovies */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7A134ED7C97296342D6D2EAC99234 /* Pods-DecadeOfMovies.modulemap */,
+				C0F885B772CD010EBEB69F52BB91D08B /* Pods-DecadeOfMovies-acknowledgements.markdown */,
+				09EF7A7B12D082A2F71A2913FD4F364A /* Pods-DecadeOfMovies-acknowledgements.plist */,
+				5FB2ABCDE712C5A54246EC66143AA8D4 /* Pods-DecadeOfMovies-dummy.m */,
+				B1B8EEBFD540BCBAC901BED497A7F1A0 /* Pods-DecadeOfMovies-frameworks.sh */,
+				52AA1C5817B0443CD7F5CEDE141D3C94 /* Pods-DecadeOfMovies-Info.plist */,
+				26C20737BCFB475400D4F52C6EC11390 /* Pods-DecadeOfMovies-umbrella.h */,
+				B7CA49011B130643A5FEB971F6CB5B0F /* Pods-DecadeOfMovies.debug.xcconfig */,
+				E6A2C8E0F36B4B02E1F14DDAA0ADF30D /* Pods-DecadeOfMovies.release.xcconfig */,
+			);
+			name = "Pods-DecadeOfMovies";
+			path = "Target Support Files/Pods-DecadeOfMovies";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C673CCBFE3233D10F1B76EE501291CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */,
+				956FA14E869C446564DBDBF5C7F2B38F /* Pods_DecadeOfMovies.framework */,
+				00803B939D57EFC8FDE00A6C22420952 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework */,
+				1A82AE9DC80237CF22B79CAAFD899D06 /* Pods_DecadeOfMoviesTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4304240AA3F97B8DA63732BED71C92CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E394704805E5E41C40BC600EC788AF71 /* iOSDropDown.modulemap */,
+				562E1B0CB7AF0F74F35EBD9B634DF54D /* iOSDropDown-dummy.m */,
+				5FE3FAAF89E5C3D34984F3CC7E26E179 /* iOSDropDown-Info.plist */,
+				F7C0E7D451DF09B403F4E7B1E4343892 /* iOSDropDown-prefix.pch */,
+				1A78BF6B03DED20C609704AE7C949C04 /* iOSDropDown-umbrella.h */,
+				C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */,
+				BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		595C3A92176432AEAD626904CD8407A4 /* Pods-DecadeOfMoviesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7737BF3B6941D841329E07BD4E90DE71 /* Pods-DecadeOfMoviesTests.modulemap */,
+				D2F61909EA001C958133FCF3813F7C9B /* Pods-DecadeOfMoviesTests-acknowledgements.markdown */,
+				04683809493E9A07895E840E2958EDA3 /* Pods-DecadeOfMoviesTests-acknowledgements.plist */,
+				862B764278DA3C8414600DBD39DFB823 /* Pods-DecadeOfMoviesTests-dummy.m */,
+				906F46F575AC0572E64BC8427A5209A2 /* Pods-DecadeOfMoviesTests-Info.plist */,
+				04971C53C2975C75EC2AE1F8992203C2 /* Pods-DecadeOfMoviesTests-umbrella.h */,
+				F660D8B258B64A24B417845074DC6401 /* Pods-DecadeOfMoviesTests.debug.xcconfig */,
+				D854D11C419FA52F10EC30B610F72D5C /* Pods-DecadeOfMoviesTests.release.xcconfig */,
+			);
+			name = "Pods-DecadeOfMoviesTests";
+			path = "Target Support Files/Pods-DecadeOfMoviesTests";
+			sourceTree = "<group>";
+		};
+		60E09F58A4B6EF1F34AC349248B764C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3D57C222983B3ACBD29F20BAE9203E6 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				4A2DBD197BF8C4A95CF11BB10B92F671 /* iOSDropDown.swift */,
+				4304240AA3F97B8DA63732BED71C92CD /* Support Files */,
+			);
+			name = iOSDropDown;
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		B7ECACB3FB36A5E8D22AF6D0CA8DAC3C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				10120768FDFD13382CD15F13A4347397 /* Pods-DecadeOfMovies */,
+				C712C62A21399862471756442B4C8324 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests */,
+				595C3A92176432AEAD626904CD8407A4 /* Pods-DecadeOfMoviesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C712C62A21399862471756442B4C8324 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E49EF817CEC5B7B8B81D8D733BC7F8EB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.modulemap */,
+				93CE34130B35B04997426CDB699A5FDB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.markdown */,
+				DD2CA462C5E2AA02241A0E9FF97803A0 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-acknowledgements.plist */,
+				EB98C9BB1D60E50A1C10746251933262 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m */,
+				4AB4C09F436DB4E6946165BAE42CFF27 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-frameworks.sh */,
+				1A4EB0333820973B4B526B538B23B241 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-Info.plist */,
+				FF64450BF52F47BD48BF996488FCA965 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h */,
+				44FDC1476BAD82700652CF7ED32D84B8 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig */,
+				BC426ED2C38BB78624C3E589696626E1 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.release.xcconfig */,
+			);
+			name = "Pods-DecadeOfMovies-DecadeOfMoviesUITests";
+			path = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				60E09F58A4B6EF1F34AC349248B764C0 /* Pods */,
+				2C673CCBFE3233D10F1B76EE501291CD /* Products */,
+				B7ECACB3FB36A5E8D22AF6D0CA8DAC3C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B9509564DA089BDA415819F94EAF9A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C87B441F1454B652561290F80B30A152 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A905842D7F38038C5AE524E9DF7789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6762724102132C861217B911E70056ED /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05127DD850B7478D8E2B5FA93E2F183 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DCD189DA3EE20E9F9E1DB89BAB7D61 /* Pods-DecadeOfMovies-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE507B65636C9D3BF1409711E054D97A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C820D334F9EEE2EE9E38D8955BFED966 /* Pods-DecadeOfMoviesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		13EA5A658209CA692B8D9258B08CF4D3 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2287C179E6D47176717DC24240C06B82 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMovies-DecadeOfMoviesUITests" */;
+			buildPhases = (
+				4B9509564DA089BDA415819F94EAF9A0 /* Headers */,
+				60A7C6AE01E85AC71A696EC10DD8C41E /* Sources */,
+				287CFCE08090F90E199F8D461FD7AF74 /* Frameworks */,
+				34CEA1EF6A8916500077772A8B53E8C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A874199C604C0B75D17D92FDCF71F858 /* PBXTargetDependency */,
+			);
+			name = "Pods-DecadeOfMovies-DecadeOfMoviesUITests";
+			productName = "Pods-DecadeOfMovies-DecadeOfMoviesUITests";
+			productReference = 00803B939D57EFC8FDE00A6C22420952 /* Pods_DecadeOfMovies_DecadeOfMoviesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				93A905842D7F38038C5AE524E9DF7789 /* Headers */,
+				51ADBD82176C61B9136F2C18746D6E55 /* Sources */,
+				25DF5A9AC595EB65396B0F7FD3EC355F /* Frameworks */,
+				4F2761F0F0D962265232D9EE899A184E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		636AE996BA079E81965D4F8FCF9C4CA5 /* Pods-DecadeOfMoviesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9BF875C7939391DBFE06487EFF0EB9 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMoviesTests" */;
+			buildPhases = (
+				DE507B65636C9D3BF1409711E054D97A /* Headers */,
+				1C1AE02ADAE76AB80031A157B25A31E0 /* Sources */,
+				D0062D50A8EFE4D40BA649F7FA6BF8F4 /* Frameworks */,
+				AD9E462E62CDC9B84899F9331F4CEAE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97181010AA82E442978AB8CE3AF1C704 /* PBXTargetDependency */,
+			);
+			name = "Pods-DecadeOfMoviesTests";
+			productName = "Pods-DecadeOfMoviesTests";
+			productReference = 1A82AE9DC80237CF22B79CAAFD899D06 /* Pods_DecadeOfMoviesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D37697326FB215A6E4AAC72838D5BE1F /* Pods-DecadeOfMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C1F96F0ABE748C8688F505F8057505 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMovies" */;
+			buildPhases = (
+				A05127DD850B7478D8E2B5FA93E2F183 /* Headers */,
+				8A0782A16737CA4CB929465B856D738F /* Sources */,
+				3B69AAAC6ED7A57955D6CCE95F34B477 /* Frameworks */,
+				CD3DCCE344E9A136B4AE79BFE742AD16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA70E86A4F65286FB5EF448C3B9ADDB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DecadeOfMovies";
+			productName = "Pods-DecadeOfMovies";
+			productReference = 956FA14E869C446564DBDBF5C7F2B38F /* Pods_DecadeOfMovies.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2C673CCBFE3233D10F1B76EE501291CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				D37697326FB215A6E4AAC72838D5BE1F /* Pods-DecadeOfMovies */,
+				13EA5A658209CA692B8D9258B08CF4D3 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests */,
+				636AE996BA079E81965D4F8FCF9C4CA5 /* Pods-DecadeOfMoviesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34CEA1EF6A8916500077772A8B53E8C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F2761F0F0D962265232D9EE899A184E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD9E462E62CDC9B84899F9331F4CEAE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3DCCE344E9A136B4AE79BFE742AD16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C1AE02ADAE76AB80031A157B25A31E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC2ADCDFE91DD217C3358EA7D5C5D73 /* Pods-DecadeOfMoviesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51ADBD82176C61B9136F2C18746D6E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C312131E6526BFB7C1CB92D93D58FCC7 /* iOSDropDown-dummy.m in Sources */,
+				6ADFB626C34AA35AC883469526699F8D /* iOSDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60A7C6AE01E85AC71A696EC10DD8C41E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A5A6FFDE696298C5257407189C7FEB /* Pods-DecadeOfMovies-DecadeOfMoviesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A0782A16737CA4CB929465B856D738F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				988F4F0DE6EA7AEB0161D9BAF0CEBCC5 /* Pods-DecadeOfMovies-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		97181010AA82E442978AB8CE3AF1C704 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DecadeOfMovies";
+			target = D37697326FB215A6E4AAC72838D5BE1F /* Pods-DecadeOfMovies */;
+			targetProxy = CCB0AD73F25444B2B6C57DE9EFD160F5 /* PBXContainerItemProxy */;
+		};
+		A874199C604C0B75D17D92FDCF71F858 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 195B55C8B24DD88B0DD204222AA98898 /* PBXContainerItemProxy */;
+		};
+		DA70E86A4F65286FB5EF448C3B9ADDB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = A6B4C029F050E7601960625F9EA82DD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		361D95BE2758C79F043E1000D9BCBEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44FDC1476BAD82700652CF7ED32D84B8 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests/Pods-DecadeOfMovies-DecadeOfMoviesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests/Pods-DecadeOfMovies-DecadeOfMoviesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AF6733DFA5EB79F2327CC9FEE8BA7C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC426ED2C38BB78624C3E589696626E1 /* Pods-DecadeOfMovies-DecadeOfMoviesUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests/Pods-DecadeOfMovies-DecadeOfMoviesUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMovies-DecadeOfMoviesUITests/Pods-DecadeOfMovies-DecadeOfMoviesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92111D7F4357A63D476FF4384C052E33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF58B08E2E4F30F24A42E1F63F109E96 /* iOSDropDown.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9777F8A98343527160CF9950B9A6980B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6A203E22246BADE78D1981895E516AA /* iOSDropDown.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE814711A8C18D808BCE5E195EFE72E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6A2C8E0F36B4B02E1F14DDAA0ADF30D /* Pods-DecadeOfMovies.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7C1FC1FD2FD164CFD0A4098639B974E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D854D11C419FA52F10EC30B610F72D5C /* Pods-DecadeOfMoviesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D08DAB966D4D3BFE26A69DF112EE0D70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CA49011B130643A5FEB971F6CB5B0F /* Pods-DecadeOfMovies.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMovies/Pods-DecadeOfMovies.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF39533DC41FCA3F5B85ADBAFC9309DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F660D8B258B64A24B417845074DC6401 /* Pods-DecadeOfMoviesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DecadeOfMoviesTests/Pods-DecadeOfMoviesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2287C179E6D47176717DC24240C06B82 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMovies-DecadeOfMoviesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				361D95BE2758C79F043E1000D9BCBEB7 /* Debug */,
+				4AF6733DFA5EB79F2327CC9FEE8BA7C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C1F96F0ABE748C8688F505F8057505 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D08DAB966D4D3BFE26A69DF112EE0D70 /* Debug */,
+				AE814711A8C18D808BCE5E195EFE72E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A476A331E996DC82BDA1CD0E8A43F8B6 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9777F8A98343527160CF9950B9A6980B /* Debug */,
+				92111D7F4357A63D476FF4384C052E33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9BF875C7939391DBFE06487EFF0EB9 /* Build configuration list for PBXNativeTarget "Pods-DecadeOfMoviesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF39533DC41FCA3F5B85ADBAFC9309DB /* Debug */,
+				B7C1FC1FD2FD164CFD0A4098639B974E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
