@@ -99,13 +99,11 @@
 		0BB7928024C35527004DD0AC /* DecadeOfMovies */ = {
 			isa = PBXGroup;
 			children = (
-				0BB7928124C35527004DD0AC /* AppDelegate.swift */,
-				0BB7928324C35527004DD0AC /* SceneDelegate.swift */,
-				0BB7928524C35527004DD0AC /* ViewController.swift */,
-				0BB7928724C35527004DD0AC /* Main.storyboard */,
-				0BB7928A24C3552C004DD0AC /* Assets.xcassets */,
-				0BB7928C24C3552C004DD0AC /* LaunchScreen.storyboard */,
-				0BB7928F24C3552C004DD0AC /* Info.plist */,
+				0BB792B324C3588B004DD0AC /* Configurations */,
+				0BB792B124C35865004DD0AC /* Core */,
+				0BB792B424C358A4004DD0AC /* Resources */,
+				0BB792B224C35874004DD0AC /* StoryBoards */,
+				0BB792B524C35968004DD0AC /* Controller */,
 			);
 			path = DecadeOfMovies;
 			sourceTree = "<group>";
@@ -126,6 +124,48 @@
 				0BB792A524C3552C004DD0AC /* Info.plist */,
 			);
 			path = DecadeOfMoviesUITests;
+			sourceTree = "<group>";
+		};
+		0BB792B124C35865004DD0AC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7928124C35527004DD0AC /* AppDelegate.swift */,
+				0BB7928324C35527004DD0AC /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0BB792B224C35874004DD0AC /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7928724C35527004DD0AC /* Main.storyboard */,
+				0BB7928C24C3552C004DD0AC /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		0BB792B324C3588B004DD0AC /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7928F24C3552C004DD0AC /* Info.plist */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		0BB792B424C358A4004DD0AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7928A24C3552C004DD0AC /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BB792B524C35968004DD0AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0BB7928524C35527004DD0AC /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,7 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45S7VN2TT3;
-				INFOPLIST_FILE = DecadeOfMovies/Info.plist;
+				INFOPLIST_FILE = DecadeOfMovies/Configurations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,7 +495,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 45S7VN2TT3;
-				INFOPLIST_FILE = DecadeOfMovies/Info.plist;
+				INFOPLIST_FILE = DecadeOfMovies/Configurations/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
