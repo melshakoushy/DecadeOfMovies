@@ -21,6 +21,7 @@ class MoviesMainVC: UIViewController {
     //Variabes
     var movies = DataLoader().movies
     var yearsArray = [String]()
+    var selectedMovie = Movie(title: "", year: 0, cast: [String](), genres: [String](), rating: 0)
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +41,7 @@ class MoviesMainVC: UIViewController {
         }
         yearDropDown.optionArray = yearsArray.removeDuplicates()
         yearDropDown.didSelect{(selectedText , index ,id) in
-            self.movies = DataLoader().movies.filter {$0.year == Int(selectedText)}.filter{$0.rating == 5}.enumerated().compactMap{ $0.offset < 5 ? $0.element : nil }
+            self.movies = DataLoader().movies.filter {$0.year == Int(selectedText)}.sorted(by: { $0.rating > $1.rating }).enumerated().compactMap{ $0.offset < 5 ? $0.element : nil }
             self.tableView.reloadData()
         }
     }
@@ -63,5 +64,13 @@ extension MoviesMainVC: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "MovieDetailsVC") as! MovieDetailsVC
+            vc.selectedMovie = movies[indexPath.row]
+            navigationController?.pushViewController(vc, animated: true)
+
     }
 }
