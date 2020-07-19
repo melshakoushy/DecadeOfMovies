@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Movies-->
+        <!--Decade Of Movies-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MoviesMainVC" customModule="DecadeOfMovies" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,11 +18,12 @@
                         <subviews>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose or enter the year you prefare" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ax4-ic-ENb" customClass="DropDown" customModule="iOSDropDown">
                                 <rect key="frame" x="16" y="104" width="382" height="40"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="zYl-Mt-sBk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="ASCIICapableNumberPad" returnKeyType="search"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rowHeight">
                                         <real key="value" value="40"/>
@@ -46,7 +47,7 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="arrowColor">
                                         <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="checkMarkEnabled" value="NO"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="handleKeyboard" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
@@ -67,8 +68,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Movies" id="psG-bD-3g3"/>
+                    <navigationItem key="navigationItem" title="Decade Of Movies" id="psG-bD-3g3"/>
                     <connections>
+                        <outlet property="tableView" destination="OVg-ni-wuE" id="7s6-IF-mkn"/>
+                        <outlet property="yearDropDown" destination="Ax4-ic-ENb" id="1Tx-Pl-5Dc"/>
                         <segue destination="7md-nP-v9x" kind="show" id="aaz-GZ-SE4"/>
                     </connections>
                 </viewController>
@@ -76,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="1047.8260869565217" y="117.85714285714285"/>
         </scene>
-        <!--View Controller-->
+        <!--Movie DetailsVC-->
         <scene sceneID="FXW-iq-bAD">
             <objects>
-                <viewController id="7md-nP-v9x" sceneMemberID="viewController">
+                <viewController id="7md-nP-v9x" customClass="MovieDetailsVC" customModule="DecadeOfMovies" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TzY-fU-YKn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
