@@ -21,7 +21,6 @@ class MoviesMainVC: UIViewController {
     //Variabes
     var movies = DataLoader().movies
     var yearsArray = [String]()
-    var selectedMovie = Movie(title: "", year: 0, cast: [String](), genres: [String](), rating: 0)
 
     override func viewDidLoad() {
         super.viewDidLoad()

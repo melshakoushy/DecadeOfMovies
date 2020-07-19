@@ -74,7 +74,7 @@
                     <connections>
                         <outlet property="tableView" destination="OVg-ni-wuE" id="7s6-IF-mkn"/>
                         <outlet property="yearDropDown" destination="Ax4-ic-ENb" id="1Tx-Pl-5Dc"/>
-                        <segue destination="7md-nP-v9x" kind="show" id="aaz-GZ-SE4"/>
+                        <segue destination="7md-nP-v9x" kind="show" identifier="toMovieDetailsVC" id="aaz-GZ-SE4"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -17,7 +17,6 @@ public class DataLoader {
     }
     
     func load() {
-        
         if let fileLocation = Bundle.main.url(forResource: "movies", withExtension: "json") {
             
             // do catch in case of an error

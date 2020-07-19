@@ -9,9 +9,9 @@
 import Foundation
 
 struct Movie {
-    var title: String
-    var year: Int
-    var cast: [String]
-    var genres: [String]
-    var rating: Int
+    var title = ""
+    var year = 0
+    var cast = [String]()
+    var genres =  [String]()
+    var rating = 0
 }

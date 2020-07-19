@@ -7,7 +7,10 @@ target 'DecadeOfMovies' do
 
   # Pods for DecadeOfMovies
 pod 'iOSDropDown'
-
+pod 'Alamofire'
+pod 'AlamofireImage'
+pod 'SwiftyJSON'
+pod 'Kingfisher'
 
   target 'DecadeOfMoviesTests' do
     inherit! :search_paths

@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AlamofireImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Kingfisher.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-DecadeOfMovies-DecadeOfMoviesUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>Pods-DecadeOfMoviesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

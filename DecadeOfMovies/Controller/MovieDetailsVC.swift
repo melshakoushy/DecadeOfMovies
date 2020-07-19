@@ -18,8 +18,9 @@ class MovieDetailsVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     
     //Variables
-    var selectedMovie = Movie(title: "", year: 0, cast: [String](), genres: [String](), rating: 0)
-
+    var selectedMovie = Movie()
+    var photos = [Photo]()
+    
     //Constents
     let imageCellId = "ImageCell"
     
@@ -49,6 +50,16 @@ class MovieDetailsVC: UIViewController {
         } else {
             self.castLbl.text = "This Movie doesn't have any known cast"
         }
+        getPhotos()
+    }
+    
+    func getPhotos() {
+        PhotoService.instance.getPhotosByTitle(title: "2012") { (error, photos) in
+            if let photos = photos {
+                self.photos = photos
+                self.collectionView.reloadData()
+            }
+        }
     }
 }
 
@@ -59,11 +70,13 @@ extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowL
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 7
+        return photos.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageCellId, for: indexPath) as! ImageCell
+        let urlString = "https://farm​\(photos[indexPath.row].farm).static.flickr.com/​\(photos[indexPath.row].server)/​\(photos[indexPath.row].id)_​\(photos[indexPath.row].secret)_m.jpg"
+        cell.movieImg.loadImage_kf(imageUrl: urlString)
         return cell
     }
     
