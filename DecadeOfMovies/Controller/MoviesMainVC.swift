@@ -38,9 +38,13 @@ class MoviesMainVC: UIViewController {
         for i in 0..<movies.count {
             self.yearsArray.append("\(movies[i].year)")
         }
+        yearsArray.append("Clear")
         yearDropDown.optionArray = yearsArray.removeDuplicates()
         yearDropDown.didSelect{(selectedText , index ,id) in
             self.movies = DataLoader().movies.filter {$0.year == Int(selectedText)}.sorted(by: { $0.rating > $1.rating }).enumerated().compactMap{ $0.offset < 5 ? $0.element : nil }
+            if selectedText == "Clear" {
+                self.movies = DataLoader().movies
+            }
             self.tableView.reloadData()
         }
     }

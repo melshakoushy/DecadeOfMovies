@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="EmptyCell" customModule="DecadeOfMovies" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="229" height="251"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="229" height="251"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cvh-g6-Dtu">
+                        <rect key="frame" x="0.0" y="0.0" width="229" height="251"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="smiley-face" translatesAutoresizingMaskIntoConstraints="NO" id="0C8-n8-su7">
+                                <rect key="frame" x="64.5" y="75.5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="hoF-W9-UJT"/>
+                                    <constraint firstAttribute="width" constant="100" id="wPI-DO-Dx5"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There's no pictures for this movie." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PQl-VU-AjP">
+                                <rect key="frame" x="16" y="191.5" width="197" height="43"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96864968539999996" green="0.96861034629999998" blue="0.96862846609999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="PQl-VU-AjP" firstAttribute="leading" secondItem="cvh-g6-Dtu" secondAttribute="leading" constant="16" id="R4o-MV-Naj"/>
+                            <constraint firstAttribute="trailing" secondItem="PQl-VU-AjP" secondAttribute="trailing" constant="16" id="Vas-zN-nz8"/>
+                            <constraint firstItem="PQl-VU-AjP" firstAttribute="top" secondItem="0C8-n8-su7" secondAttribute="bottom" constant="16" id="gWB-al-u3e"/>
+                            <constraint firstItem="0C8-n8-su7" firstAttribute="centerY" secondItem="cvh-g6-Dtu" secondAttribute="centerY" id="hlD-ih-cJO"/>
+                            <constraint firstItem="0C8-n8-su7" firstAttribute="centerX" secondItem="cvh-g6-Dtu" secondAttribute="centerX" id="tJ9-C4-04q"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="cvh-g6-Dtu" secondAttribute="trailing" id="3NQ-Rd-QWp"/>
+                <constraint firstAttribute="bottom" secondItem="cvh-g6-Dtu" secondAttribute="bottom" id="DJB-jL-Oi2"/>
+                <constraint firstItem="cvh-g6-Dtu" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="MHn-Fq-DDF"/>
+                <constraint firstItem="cvh-g6-Dtu" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="xeK-9e-uPY"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="229" height="251"/>
+            <connections>
+                <outlet property="imgIcon" destination="0C8-n8-su7" id="1Ue-MS-vhq"/>
+                <outlet property="textLbl" destination="PQl-VU-AjP" id="Y8n-xE-ag3"/>
+            </connections>
+            <point key="canvasLocation" x="258.69565217391306" y="140.95982142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="smiley-face" width="860" height="900"/>
+    </resources>
+</document>

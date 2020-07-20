@@ -16,7 +16,7 @@ class PhotoService {
     static let instance = PhotoService()
     
     func getPhotosByTitle(title: String,completion: @escaping (_ error: Error?, _ photos: [Photo]?) -> Void) {
-        let urlString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=a7a008ff16667261ee7183dce8a3a1af&format=json&nojsoncallback=1&text=\(title)&page=1&per_page=10"
+        let urlString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(API_KEY)&format=json&nojsoncallback=1&text=\(title)&page=1&per_page=10"
         if let encoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlFragmentAllowed),let url = URL(string: encoded) {
             AF.request(url, method: .get, parameters: nil, encoding: URLEncoding.default, headers: nil).responseJSON { (response) in
                 switch response.result {
@@ -43,25 +43,6 @@ class PhotoService {
                         }
                     }
                     completion(nil,photos)
-                }
-            }
-        }
-    }
-    
-    func getPhoto(farm: Int, server: String, id: String, secret: String,completion: @escaping (_ error: Error?, _ photo: UIImage) -> Void) {
-//        https://farm66.staticflickr.com/65535/50129346458_d610a9f7c6_m.jpg
-        let urlString = "https://farm​\(farm).staticflickr.com/​\(server)/​\(id)_​\(secret)_m.jpg"
-//        let urlString = "https://farm66.staticflickr.com/65535/50129346458_d610a9f7c6_m.jpg"
-        if let encoded = urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed),let url = URL(string: encoded) {
-            print(urlString)
-            print(url)
-            AF.request(url).responseImage { (response) in
-                switch response.result {
-                case let .success(image):
-                    completion(nil,image)
-                case let .failure(error):
-                    completion(error,UIImage())
-                    print(error)
                 }
             }
         }

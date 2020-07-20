@@ -11,6 +11,7 @@ pod 'Alamofire'
 pod 'AlamofireImage'
 pod 'SwiftyJSON'
 pod 'Kingfisher'
+pod 'NVActivityIndicatorView'
 
   target 'DecadeOfMoviesTests' do
     inherit! :search_paths
