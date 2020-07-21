@@ -11,6 +11,8 @@ import UIKit
 import Kingfisher
 
 extension UIImageView {
+    
+    //Loading the images by url to the image view
     func loadImage_kf(imageUrl: String,  placeholderImage: String = "NoImageName") {
         let imgUrl = URL(string: imageUrl)
         let placeHolder = UIImage(named: placeholderImage)

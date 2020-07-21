@@ -25,7 +25,6 @@
 		0BB7928924C35527004DD0AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7928724C35527004DD0AC /* Main.storyboard */; };
 		0BB7928B24C3552C004DD0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7928A24C3552C004DD0AC /* Assets.xcassets */; };
 		0BB7928E24C3552C004DD0AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB7928C24C3552C004DD0AC /* LaunchScreen.storyboard */; };
-		0BB7929924C3552C004DD0AC /* DecadeOfMoviesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB7929824C3552C004DD0AC /* DecadeOfMoviesTests.swift */; };
 		0BB792A424C3552C004DD0AC /* DecadeOfMoviesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB792A324C3552C004DD0AC /* DecadeOfMoviesUITests.swift */; };
 		0BB792B724C35D1A004DD0AC /* MovieDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB792B624C35D1A004DD0AC /* MovieDetailsVC.swift */; };
 		0BB792B924C362FF004DD0AC /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 0BB792B824C362FF004DD0AC /* movies.json */; };
@@ -80,7 +79,6 @@
 		0BB7928D24C3552C004DD0AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BB7928F24C3552C004DD0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB7929424C3552C004DD0AC /* DecadeOfMoviesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecadeOfMoviesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0BB7929824C3552C004DD0AC /* DecadeOfMoviesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecadeOfMoviesTests.swift; sourceTree = "<group>"; };
 		0BB7929A24C3552C004DD0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0BB7929F24C3552C004DD0AC /* DecadeOfMoviesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecadeOfMoviesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB792A324C3552C004DD0AC /* DecadeOfMoviesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecadeOfMoviesUITests.swift; sourceTree = "<group>"; };
@@ -255,7 +253,6 @@
 		0BB7929724C3552C004DD0AC /* DecadeOfMoviesTests */ = {
 			isa = PBXGroup;
 			children = (
-				0BB7929824C3552C004DD0AC /* DecadeOfMoviesTests.swift */,
 				884A4EC024C5DC48006DA6DE /* DataLoaderTest.swift */,
 				884A4EC224C5E0A4006DA6DE /* ExtensionsTest.swift */,
 				884A4EC424C5E6DD006DA6DE /* PhotoServiceTest.swift */,
@@ -621,7 +618,6 @@
 				884A4EC524C5E6DD006DA6DE /* PhotoServiceTest.swift in Sources */,
 				884A4EC124C5DC48006DA6DE /* DataLoaderTest.swift in Sources */,
 				884A4EC324C5E0A4006DA6DE /* ExtensionsTest.swift in Sources */,
-				0BB7929924C3552C004DD0AC /* DecadeOfMoviesTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

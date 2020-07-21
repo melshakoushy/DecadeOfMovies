@@ -11,6 +11,7 @@ import UIKit
 
 extension UIView {
     
+    //Adding Corner radius to any UIView
     func addcornerRadius(radius: CGFloat) {
         self.layer.cornerRadius = radius
         self.layer.masksToBounds = true

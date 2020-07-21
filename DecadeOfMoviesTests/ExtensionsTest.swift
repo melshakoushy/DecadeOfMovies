@@ -29,8 +29,8 @@ class ExtensionsTest: XCTestCase {
         let imgUrl = "https://farm66.static.flickr.com/65535/50132186158_862f24c4f0_m.jpg"
         XCTAssertNotNil(image.loadImage_kf(imageUrl: imgUrl))
         self.measure {
-                    image.loadImage_kf(imageUrl: imgUrl)
+            image.loadImage_kf(imageUrl: imgUrl)
         }
     }
-
+    
 }

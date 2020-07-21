@@ -10,7 +10,7 @@ import XCTest
 @testable import DecadeOfMovies
 
 class PhotoServiceTest: XCTestCase {
-
+    
     func testgetPhotosByTitle() {
         let photoServie = PhotoService()
         let title = "2012"
@@ -21,12 +21,12 @@ class PhotoServiceTest: XCTestCase {
             ex.fulfill()
         }
         waitForExpectations(timeout: 10) { (error) in
-          if let error = error {
-            XCTFail("error: \(error)")
-          }
+            if let error = error {
+                XCTFail("error: \(error)")
+            }
         }
     }
-
+    
     func testgetPhotosByTitlePerformance()  {
         let photoServie = PhotoService()
         let title = "2012"

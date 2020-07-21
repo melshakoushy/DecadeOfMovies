@@ -13,7 +13,7 @@ class DecadeOfMoviesUITests: XCTestCase {
     func testValidTextField() {
         let app = XCUIApplication()
         app.launch()
-
+        
         XCTAssertEqual(app.textFields.count, 1)
         let textField = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .textField).element
         XCTAssertTrue(textField.exists)

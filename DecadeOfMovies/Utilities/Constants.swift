@@ -8,6 +8,8 @@
 
 import Foundation
 
+//Completion Handler
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
+//Flicker API Key
 let API_KEY = "a7a008ff16667261ee7183dce8a3a1af"

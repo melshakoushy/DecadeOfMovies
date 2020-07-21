@@ -10,7 +10,7 @@ import UIKit
 
 class ImageCell: UICollectionViewCell {
     
-    //Varibales
+    //Outlets
     @IBOutlet weak var movieImg: UIImageView!
     
     
@@ -19,6 +19,7 @@ class ImageCell: UICollectionViewCell {
         setupView()
     }
     
+    //setting up the view elements
     func setupView() {
         movieImg.addcornerRadius(radius: 10)
     }

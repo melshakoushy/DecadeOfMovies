@@ -10,12 +10,15 @@ import Foundation
 
 public class DataLoader {
     
+    //Variables
     var movies = [Movie]()
     
+    //Initialization Code
     init() {
         load()
     }
     
+    //Loading the movies from the local json file and add it to array of objects
     func load() {
         if let fileLocation = Bundle.main.url(forResource: "movies", withExtension: "json") {
             

@@ -27,11 +27,13 @@ class MovieDetailsVC: UIViewController {
     let imageCellId = "ImageCell"
     let emptyCellId = "EmptyCell"
     
+    //Viewdidload
     override func viewDidLoad() {
         super.viewDidLoad()
         loadViewData()
     }
     
+    //Photos Collection View setup
     func setupCollectionView() {
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -39,6 +41,7 @@ class MovieDetailsVC: UIViewController {
         collectionView.register(UINib(nibName: emptyCellId, bundle: nil), forCellWithReuseIdentifier: emptyCellId)
     }
     
+    //Loading the data to the view elemnts
     func loadViewData() {
         self.title = selectedMovie.title
         self.titleLbl.text = selectedMovie.title
@@ -56,6 +59,7 @@ class MovieDetailsVC: UIViewController {
         getPhotos()
     }
     
+    //Getting the photos of a movie by it's title and loading it to the photos collections
     func getPhotos() {
         self.indicator.startAnimating()
         PhotoService.instance.getPhotosByTitle(title: selectedMovie.title) { (error, photos) in
@@ -70,6 +74,7 @@ class MovieDetailsVC: UIViewController {
     }
 }
 
+//CollectionView Delegate Methods
 extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
     
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -90,6 +95,7 @@ extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowL
             return cell
         } else {
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageCellId, for: indexPath) as! ImageCell
+            //Creating the Image url
             let urlString = "https://farm\(photos[indexPath.row].farm).static.flickr.com/\(photos[indexPath.row].server)/\(photos[indexPath.row].id)_\(photos[indexPath.row].secret)_m.jpg"
             cell.movieImg.loadImage_kf(imageUrl: urlString)
             return cell

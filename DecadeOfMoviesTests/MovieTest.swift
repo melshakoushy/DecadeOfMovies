@@ -10,7 +10,7 @@ import XCTest
 @testable import DecadeOfMovies
 
 class MovieTest: XCTestCase {
-
+    
     func testInit_ShouldTakeAttributes() {
         let movie = Movie(title: "Avatar", year: 2009, cast: ["Zoe Saldana", "Neytiri"], genres: ["Adventures"], rating: 8)
         XCTAssertEqual(movie.title,  "Avatar")

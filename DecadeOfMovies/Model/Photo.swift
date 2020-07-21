@@ -19,6 +19,7 @@ struct Photo {
     var isfriend = 0
     var isfamily = 0
     
+    //Initialization Code
     init(id: String, owner: String, secret: String, server: String, farm: Int, title: String, ispublic: Int, isfriend: Int, isfamily: Int) {
         self.id = id
         self.owner = owner
