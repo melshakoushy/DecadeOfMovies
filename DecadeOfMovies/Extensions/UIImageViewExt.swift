@@ -22,7 +22,6 @@ extension UIImageView {
             result in
             switch result {
             case .success(let value):
-                print("Task done for: \(value.source.url?.absoluteString ?? "")")
                 DispatchQueue.main.async {
                     self.image = value.image
                 }

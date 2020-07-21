@@ -13,7 +13,7 @@ class MovieCell: UITableViewCell {
     //Outlets
     @IBOutlet weak var nameLbl: UILabel!
     
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }

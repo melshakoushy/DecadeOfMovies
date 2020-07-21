@@ -14,4 +14,16 @@ struct Movie {
     var cast = [String]()
     var genres =  [String]()
     var rating = 0
+    
+    init(title: String, year: Int, cast: [String], genres: [String], rating: Int) {
+        self.title = title
+        self.year = year
+        self.cast = cast
+        self.genres = genres
+        self.rating = rating
+    }
+    
+    init() {
+        
+    }
 }
