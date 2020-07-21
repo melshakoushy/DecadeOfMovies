@@ -15,7 +15,11 @@ class PhotoService {
     
     static let instance = PhotoService()
     
-    //Getting the pictures from flicker api by the movie title
+    // MARK: - Loading data
+    /// This  function is used to get the images from flicker by the movie title
+    /// - Parameters:
+    ///   - title: The move title that the user selected
+    ///   - completion: contains the errors if any and an array of objects
     func getPhotosByTitle(title: String,completion: @escaping (_ error: Error?, _ photos: [Photo]?) -> Void) {
         //Preparing the url
         let urlString = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=\(API_KEY)&format=json&nojsoncallback=1&text=\(title)&page=1&per_page=10"

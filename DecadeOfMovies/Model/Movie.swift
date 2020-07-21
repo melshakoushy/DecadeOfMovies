@@ -9,13 +9,15 @@
 import Foundation
 
 struct Movie {
+    
+    // MARK: Properties
     var title = ""
     var year = 0
     var cast = [String]()
     var genres =  [String]()
     var rating = 0
     
-    //Initialization Code
+    //MARK: initialization
     init(title: String, year: Int, cast: [String], genres: [String], rating: Int) {
         self.title = title
         self.year = year

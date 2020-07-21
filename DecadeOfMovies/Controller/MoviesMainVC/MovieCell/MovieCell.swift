@@ -10,10 +10,10 @@ import UIKit
 
 class MovieCell: UITableViewCell {
     
-    //Outlets
+    // MARK: Outlets
     @IBOutlet weak var nameLbl: UILabel!
     
-    
+    // MARK: LifeCycle
     override func awakeFromNib() {
         super.awakeFromNib()
     }
