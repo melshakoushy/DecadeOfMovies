@@ -10,14 +10,13 @@ import UIKit
 
 class EmptyCell: UICollectionViewCell {
     
-    //Outlets
+    // MARK: Outlets
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var textLbl: UILabel!
     
-    
+    // MARK: LifeCycle
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
     
 }

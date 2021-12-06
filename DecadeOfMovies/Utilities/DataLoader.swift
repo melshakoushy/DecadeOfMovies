@@ -10,12 +10,15 @@ import Foundation
 
 public class DataLoader {
     
+    // MARK: Properties
     var movies = [Movie]()
     
+    //MARK: initialization
     init() {
         load()
     }
     
+    // MARK: - Loading data
     func load() {
         if let fileLocation = Bundle.main.url(forResource: "movies", withExtension: "json") {
             

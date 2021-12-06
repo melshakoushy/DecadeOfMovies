@@ -9,6 +9,8 @@
 import Foundation
 
 struct Photo {
+    
+    // MARK: Properties
     var id = ""
     var owner = ""
     var secret = ""
@@ -19,6 +21,10 @@ struct Photo {
     var isfriend = 0
     var isfamily = 0
     
+<<<<<<< HEAD
+=======
+    //MARK: initialization
+>>>>>>> d6bc40e03f4e3bbe2f10225096cd0f7d541e0fb2
     init(id: String, owner: String, secret: String, server: String, farm: Int, title: String, ispublic: Int, isfriend: Int, isfamily: Int) {
         self.id = id
         self.owner = owner

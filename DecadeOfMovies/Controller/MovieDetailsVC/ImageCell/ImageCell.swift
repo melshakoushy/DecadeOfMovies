@@ -10,15 +10,16 @@ import UIKit
 
 class ImageCell: UICollectionViewCell {
     
-    //Varibales
+    // MARK: Outlets
     @IBOutlet weak var movieImg: UIImageView!
-    
-    
+
+    // MARK: LifeCycle
     override func awakeFromNib() {
         super.awakeFromNib()
         setupView()
     }
     
+    //MARK: Setup
     func setupView() {
         movieImg.addcornerRadius(radius: 10)
     }

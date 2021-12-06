@@ -11,7 +11,7 @@ import NVActivityIndicatorView
 
 class MovieDetailsVC: UIViewController {
     
-    //Outlets
+    // MARK: Outlets
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var yearLbl: UILabel!
     @IBOutlet weak var genresLbl: UILabel!
@@ -19,19 +19,21 @@ class MovieDetailsVC: UIViewController {
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var indicator: NVActivityIndicatorView!
     
-    //Variables
+    // MARK: Properties
     var selectedMovie = Movie()
     var photos = [Photo]()
     
-    //Constents
+    // MARK: Constants
     let imageCellId = "ImageCell"
     let emptyCellId = "EmptyCell"
     
+    // MARK: LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         loadViewData()
     }
     
+    //MARK: Setup
     func setupCollectionView() {
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -39,6 +41,7 @@ class MovieDetailsVC: UIViewController {
         collectionView.register(UINib(nibName: emptyCellId, bundle: nil), forCellWithReuseIdentifier: emptyCellId)
     }
     
+    //Loading the data to the view elemnts
     func loadViewData() {
         self.title = selectedMovie.title
         self.titleLbl.text = selectedMovie.title
@@ -56,6 +59,7 @@ class MovieDetailsVC: UIViewController {
         getPhotos()
     }
     
+    //Getting the photos of a movie by it's title and loading it to the photos collections
     func getPhotos() {
         self.indicator.startAnimating()
         PhotoService.instance.getPhotosByTitle(title: selectedMovie.title) { (error, photos) in
@@ -66,44 +70,6 @@ class MovieDetailsVC: UIViewController {
                 self.indicator.stopAnimating()
                 self.indicator.isHidden = true
             }
-        }
-    }
-}
-
-extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowLayout, UICollectionViewDataSource {
-    
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if photos.count == 0 {
-            return 1
-        } else {
-            return photos.count
-        }
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if photos.count == 0 {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: emptyCellId, for: indexPath) as! EmptyCell
-            return cell
-        } else {
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageCellId, for: indexPath) as! ImageCell
-            let urlString = "https://farm\(photos[indexPath.row].farm).static.flickr.com/\(photos[indexPath.row].server)/\(photos[indexPath.row].id)_\(photos[indexPath.row].secret)_m.jpg"
-            cell.movieImg.loadImage_kf(imageUrl: urlString)
-            return cell
-        }
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        if photos.count == 0 {
-            let width = self.collectionView.bounds.width
-            let hight = self.collectionView.bounds.height
-            return CGSize(width: width, height: hight)
-        } else {
-            let size = (self.collectionView.bounds.width / 2) - 10
-            return CGSize(width: size, height: 220)
         }
     }
 }

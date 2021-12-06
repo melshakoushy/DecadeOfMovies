@@ -10,4 +10,5 @@ import Foundation
 
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
+// MARK: Constants
 let API_KEY = "a7a008ff16667261ee7183dce8a3a1af"
