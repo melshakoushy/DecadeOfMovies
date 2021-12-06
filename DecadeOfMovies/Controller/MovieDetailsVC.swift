@@ -80,7 +80,7 @@ extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowL
         if photos.count == 0 {
             return 1
         } else {
-        return photos.count
+            return photos.count
         }
     }
     
@@ -89,10 +89,10 @@ extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowL
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: emptyCellId, for: indexPath) as! EmptyCell
             return cell
         } else {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageCellId, for: indexPath) as! ImageCell
-        let urlString = "https://farm\(photos[indexPath.row].farm).static.flickr.com/\(photos[indexPath.row].server)/\(photos[indexPath.row].id)_\(photos[indexPath.row].secret)_m.jpg"
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: imageCellId, for: indexPath) as! ImageCell
+            let urlString = "https://farm\(photos[indexPath.row].farm).static.flickr.com/\(photos[indexPath.row].server)/\(photos[indexPath.row].id)_\(photos[indexPath.row].secret)_m.jpg"
             cell.movieImg.loadImage_kf(imageUrl: urlString)
-        return cell
+            return cell
         }
     }
     
@@ -102,8 +102,8 @@ extension MovieDetailsVC: UICollectionViewDelegate,UICollectionViewDelegateFlowL
             let hight = self.collectionView.bounds.height
             return CGSize(width: width, height: hight)
         } else {
-        let size = (self.collectionView.bounds.width / 2) - 10
-        return CGSize(width: size, height: 220)
+            let size = (self.collectionView.bounds.width / 2) - 10
+            return CGSize(width: size, height: 220)
         }
     }
 }

@@ -14,10 +14,10 @@ class EmptyCell: UICollectionViewCell {
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var textLbl: UILabel!
     
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
 }

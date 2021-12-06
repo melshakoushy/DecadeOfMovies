@@ -13,7 +13,7 @@ class ImageCell: UICollectionViewCell {
     //Varibales
     @IBOutlet weak var movieImg: UIImageView!
     
-
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         setupView()

@@ -11,7 +11,3 @@ import Foundation
 typealias CompletionHandler = (_ Success: Bool) -> ()
 
 let API_KEY = "a7a008ff16667261ee7183dce8a3a1af"
-
-let HEADER = [
-    "Content-Type" : "application/x-www-form-urlencoded; charset=utf-8"
-]

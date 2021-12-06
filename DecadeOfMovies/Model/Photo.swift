@@ -13,9 +13,24 @@ struct Photo {
     var owner = ""
     var secret = ""
     var server = ""
-    var farm = 0
+    var farm = 1
     var title = ""
-    var ispublic = 0
+    var ispublic = 1
     var isfriend = 0
     var isfamily = 0
+    
+    init(id: String, owner: String, secret: String, server: String, farm: Int, title: String, ispublic: Int, isfriend: Int, isfamily: Int) {
+        self.id = id
+        self.owner = owner
+        self.secret = secret
+        self.server = server
+        self.title = title
+        self.ispublic = ispublic
+        self.isfriend = isfriend
+        self.isfamily = isfamily
+    }
+    
+    init() {
+        
+    }
 }
